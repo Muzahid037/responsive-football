@@ -64,22 +64,24 @@ header{
 .container{
     background-color: #FFFFFF;
     margin-top: 60px;
-    margin-left: 60px;
 }
 
 .players{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .player{
     width: 330px;
     height: 474px;
-    border-radius: 6px;
-    box-shadow: 5px 5px 20px 5px #8888884b;
-    padding: 10px;
-    margin:15px;
-    background-image: linear-gradient(lightgray,white);
+    border-radius: 2px;
+      
+    box-shadow: 5px 5px 20px 5px #888888ea; 
+     padding: 10px;
+    margin:15px;   
+    background-image: linear-gradient(white,lightgray);
+   
 }
 
 .player img{
@@ -165,9 +167,23 @@ header{
                     height: 100%;
                 }
 
-               .container{
-                   display: none;
-               }
+                .players{
+                   flex-direction: column;
+                }
+
+                .player{
+                    width: 90%;
+                    /* width: 330px;
+                    height: 474px;
+                    box-shadow: 5px 5px 20px 5px #8888884b;
+                    padding: 10px;
+                    margin:15px; */
+                }
+                
+                .player img{
+                    width: 100%;
+                }
+                
                footer{
                    display: none;
                }
