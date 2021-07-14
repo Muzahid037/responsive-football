@@ -94,8 +94,9 @@ header{
 .achievements{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .achievement{
@@ -104,7 +105,8 @@ header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: rgb(162, 162, 162);
+
+    color:lightslategray;
     box-shadow: 5px 5px 20px 5px #8888884b;
 }
 .achievement img{
@@ -183,10 +185,17 @@ header{
                 .player img{
                     width: 100%;
                 }
-                
-               footer{
-                   display: none;
-               }
 
+                .achievements{
+                    flex-direction: column;
+                }
+                
                
+                .footer-items img{
+                    width: 275px;
+                    height: 70px;
+                }
+                .footer-copyright{
+                    font-size: 15px;
+                }
             }
