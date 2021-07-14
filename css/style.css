@@ -91,20 +91,25 @@ header{
 
 
 /* achivements style starts */
+
 .achievements{
     display: flex;
-    justify-content: center;
+     justify-content: center;
+     /*
     align-items: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 }
 
 .achievement{
-    width: 240px;
-    height: 400px;
+     width: 240px;
+    height: 400px; 
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    /* justify-content: center;
+    */
+    text-align: center; 
 
     color:lightslategray;
     box-shadow: 5px 5px 20px 5px #8888884b;
@@ -116,7 +121,7 @@ header{
 
 .achievement p h3{
     margin: 0;
-}
+} 
 
 
 
@@ -186,16 +191,20 @@ header{
                     width: 100%;
                 }
 
-                .achievements{
+                 .achievements{
                     flex-direction: column;
                 }
-                
+                .achievement{ 
+                    width: 100%;
+                 }
+                .achievement img{
+                    
+                   width: 100%;
+                } 
                
                 .footer-items img{
-                    width: 275px;
-                    height: 70px;
+                    width: 100%;
                 }
-                .footer-copyright{
-                    font-size: 15px;
-                }
+                
+                
             }
